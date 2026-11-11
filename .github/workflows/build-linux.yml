@@ -4,8 +4,6 @@ name: Build Linux
 # 触发方式：手动（workflow_dispatch）或打 v* 标签时自动构建。
 on:
   workflow_dispatch:
-  push:
-    tags: ["v*"]
 
 env:
   CI: "true"
